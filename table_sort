@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> new document </title>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+<!-- load jQuery and tablesorter scripts -->
+<script type="text/javascript" src="https://mottie.github.io/tablesorter/docs/js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="https://mottie.github.io/tablesorter/js/jquery.tablesorter.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter( /*{sortList: [[0,0], [1,0]]}*/ );
+    }
+);
+</script>
+<style type="text/css">
+.table thead th {background:#f1f1f1; padding:3px; border:solid 1px #dadada;}
+.table tbody td {padding:3px; border:solid 1px #dadada;}
+
+</style>
+ </head>
+
+ <body>
+
+	<table id="myTable" border="0" summary="고객센터 메뉴 추가 코딩리스트" class="tablesorter table">
+		<caption></caption>
+		<colgroup>
+			<col width="12%" />
+			<col width="12%" />
+			<col width="20%" />
+			<col width="24%" />
+			<col width="30%" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th scope="col">1Depth</th>
+				<th scope="col">2Depth</th>
+				<th scope="col">3Depth</th>
+				<th scope="col">File Link</th>
+				<th scope="col">Note</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>메인</td>
+				<td></td>
+				<td></td>
+				<td>main/main.html</td>
+				<td>추가</td>
+			</tr>
+			<tr>
+				<td>사이트맵</td>
+				<td></td>
+				<td></td>
+				<td>sitemap.html</td>
+				<td>고객센터 </td>
+			</tr>
+			<tr>
+				<td>고객센터</td>
+				<td>자주 찾는 질문</td>
+				<td></td>
+				<td>faq.html</td>
+				<td>101,000</td>
+			</tr>
+			<tr>
+				<td>고객센터</td>
+				<td>문의하기</td>
+				<td>목록</td>
+				<td>List.html</td>
+				<td>102,000</td>
+			</tr>
+			<tr>
+				<td>고객센터</td>
+				<td>문의하기</td>
+				<td>문의글 확인</td>
+				<td>popPassword.html</td>
+				<td>112,000</td>
+			</tr>
+			<tr>
+				<td>고객센터</td>
+				<td>문의하기</td>
+				<td>문의글 등록</td>
+				<td>Write.html</td>
+				<td>101000</td>
+			</tr>
+			<tr>
+				<td>고객센터</td>
+				<td>문의하기</td>
+				<td>문의글 확인</td>
+				<td>Confirm.html</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>고객센터</td>
+				<td>문의하기</td>
+				<td>문의글 확인</td>
+				<td><a href="inquiryReply.html"
+					target="_blank">inquiry.html</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>고객센터</td>
+				<td>문의하기</td>
+				<td>문의글 수정</td>
+				<td>Modify.html</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>문의하기</td>
+				<td>템플릿</td>
+				<td>replyEmail.html</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</tbody>
+</table>
+ </body>
+</html>
